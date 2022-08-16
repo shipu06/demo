@@ -1,0 +1,172 @@
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding-top: 40px; */
+  flex-direction: column;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.post{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 5px 30vw;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+
+post:hover{
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+ .title{
+  flex: 20%;
+  border-bottom: 1px solid lightgray;
+  background-color: dodgerblue;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+ .body{
+  flex: 60%;
+  display: grid;
+  place-content: center;
+}
+
+ .footer{
+  flex: 5%;
+  border-bottom: 1px solid lightgray;
+  background-color: dodgerblue;
+  display: grid;
+  padding: 20px;
+  place-content: center left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px ;
+  color: white;
+}
+
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.h1{
+  margin-left: 22px;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: dodgerblue;
+  width: 100%;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: 20px;
+  border:1px solid dodgerblue;
+  border-radius: 50%;
+  /* background-color: dodgerblue; */
+}
+.container
+{
+  display: flex;
+  background-color: dodgerblue;
+}
+.footer-section{
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  background-color: dodgerblue;
+}
+
+/* //create post page css */
+
+.createPostPage
+{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 5px solid dodgerblue;
+  border-radius: 5px;
+  /* margin-bottom: 70px; */
+}
+
+.formContainer #inputCreatePost{
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.formContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  color: white;
+}
+
+.formContainer button:hover{
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+
+span{
+  color: red;
+}
+
+.postPage{
+  height: 82vh;
+  width: 100vw;
+  display: flex;
+}
+.leftSide{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 15vw 5px 3vw;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
